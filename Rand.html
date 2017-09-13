@@ -4,26 +4,76 @@
     <meta charset="utf-8"/>
     <title>Randomization</title>
     <link rel="stylesheet" href="./Style.css">
+    <!--<script type= "text/javascript" 
+        scr= "jsrand.js"
+    </script>-->
 <head>
 
     <body>
-        <form action="/action_page.php">
-        <input list="browsers" name="browser">
-        <datalist id="browsers">
-          <option value="Simple Randomization">
-          <option value="Block Randomization">
-          <option value="Stratified randomization">
-          <option value="Covariate adaptive randomization">
+         <!--Header-->
+         <div id="title-wrapper" class="wrapper">
+                <div id "header">
+                    <!-- Logo-->
+                        <div >
+                            <a id = "logo"; href= "index.html">Paul M. Robison</a>
+                        </div> 
+                        <br>
+                    <!-- Nav-->
+                        <div id = "Nav">
+                            <a href="Rand.html">Randomization Explained</a>
+                            <a id="BucketList" href="BucketList.html">Bucket List</a>
+                            <a href="travel.html">Travel</a>   
+                        </div> 
+                </div>
+        </div>
+        <!-- Example Form
+            <form id="randlist" action="/action_page.php">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+            <option value="Simple Randomization">
+            <option value="Block Randomization">
+            <option value="Stratified randomization">
+            <option value="Covariate adaptive randomization">
+            </form>
+            <br>
+            </datalist>
+            <input type="submit">
+            </form>
+        -->
+        <br> 
+            <div> 
+                <a class="rand" href= "#Simple">Simple Randomization</a>
+                <a class="rand" href= "#Block">Block Randomization</a>
+                <a class="rand" href= "#Co">Restricted Randomization</a>
+            </div>
+           
         <br>
         <div>
-            <h1>Simple Randomization</h1>
-            <p></p>
+        <h3><a name="Simple">Simple randomization</a></h3>
+                <h5>Flip a coin is the basis for Simple Randomization<br>  Basic randomization is great for large populations with no need for stratification</h5>
 
+       
+        <div>
+        <h3><a name="Block">Restricted randomization</a></h3>
+
+        <div>
+                <h3><a name="Co">Covariate adaptive randomization</a></h3>
+            
         </div>
-        </datalist>
-        <input type="submit">
-      </form>
+        <div style= "text-decoration:overline; color: grey;"> Hello World</div>
+
+        <!--Footer-->
+        <div id="footer-wrapper" class="wrapper">
+                <div id "Footer">
+                    <div id = "flogo">
+                        <p>Socialize</p>
+                        <a href="https://www.linkedin.com/in/paul-robison-316a3a7b">linkedin</a>
+                        <br>                       
+                        <img src="PMRLogo.png" alt="PMRLogo" style="width:50px;height:50px;">
+                    </div> 
+                    <br>
+                       
+                </div>
+        </div>
     </body>
-
-
 </html>

@@ -1,9 +1,22 @@
+.homepage {
+    
+    background-color: #3482de
+    
+    }
+
 
 #title-wrapper {
      
     border: 16px solid black;
+    border-radius:10%;
+    padding: 10px;
+    text-align: center;
+    margin-align:center
 }
+.rand {
+display: inline
 
+}
 
 /*
 a{
@@ -12,8 +25,9 @@ a{
 */
 #logo {
     text-align: center;   
-    color:#FC0707; 
-    text-decoration: none;     
+    color:#B47777; 
+    text-decoration: none; 
+    font-size:2em    
     }
     #flogo {
         text-align: center;   
@@ -32,7 +46,42 @@ a{
 #footer-wrapper {
     background-color:black;
     border: 16px solid #724444;
+    border-radius:10px
 }
+
+#randlist {
+background-color: grey
+
+}
+
+h2 {
+padding: 20px;
+margin: 10px;
+boarder: 10px;
+
+
+}
+#id1 {
+
+color: rgb(255, 0, 0)
+
+}
+#id2 {
+    
+    color: #3482de
+    
+    }
+    #id3 {
+        
+        color: hsl(240, 80, 90)
+        
+        }
+
+        #id4 {
+            
+            color: rgba(255, 0, 0, 0.3)
+            
+            }
 
 /*
 .wrapper {
