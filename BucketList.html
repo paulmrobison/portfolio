@@ -40,7 +40,12 @@
               center: {lat:-28, lng:137}
             });
             map.data.loadGeoJson('bucket.geojson');
+            //add mouseover information
             }
+            map.data.addListener('mouseover', function(event) {
+  document.getElementById('info-box').textContent =
+      event.feature.getProperty('letter');
+});
             /*
             map.data.setStyle({
                 icon: '//example.com/path/to/image.png',
